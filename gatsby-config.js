@@ -75,6 +75,14 @@ module.exports = {
         }
       }
     },
+    {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: `UA-164667005-3`,
+        head: true,
+        anonymize: false,
+      },
+    },
     // {
     //   resolve: `gatsby-plugin-prefetch-google-fonts`,
     //   options: {
