@@ -42,7 +42,7 @@ const Jobs = () => {
       <article className="job-info">
         <h3>{position}</h3>
         <h4>{company}</h4>
-        {url!== null?<p>Website- <a href={url}>{url}</a></p>:""}
+        {url!== null?<p>Website- <a href={url} target="_blank" rel="noopener noreferrer">{url}</a></p>:""}
         <p className="job-date">{date}</p>
         {
           desc.map((item)=>{
